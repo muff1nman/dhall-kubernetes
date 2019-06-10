@@ -24,8 +24,6 @@
     None ./../types/io.k8s.api.core.v1.PodDNSConfig.dhall
 , dnsPolicy =
     None Text
-, enableServiceLinks =
-    None Bool
 , hostIPC =
     None Bool
 , hostNetwork =
@@ -41,8 +39,6 @@
 , priorityClassName =
     None Text
 , restartPolicy =
-    None Text
-, runtimeClassName =
     None Text
 , schedulerName =
     None Text

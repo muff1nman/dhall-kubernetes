@@ -8,6 +8,4 @@
     Optional Text
 , namespaceSelector :
     Optional ./io.k8s.apimachinery.pkg.apis.meta.v1.LabelSelector.dhall
-, sideEffects :
-    Optional Text
 }

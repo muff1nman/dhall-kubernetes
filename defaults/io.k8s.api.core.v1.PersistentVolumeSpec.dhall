@@ -31,7 +31,7 @@
 , gcePersistentDisk =
     None ./../types/io.k8s.api.core.v1.GCEPersistentDiskVolumeSource.dhall
 , glusterfs =
-    None ./../types/io.k8s.api.core.v1.GlusterfsPersistentVolumeSource.dhall
+    None ./../types/io.k8s.api.core.v1.GlusterfsVolumeSource.dhall
 , hostPath =
     None ./../types/io.k8s.api.core.v1.HostPathVolumeSource.dhall
 , iscsi =

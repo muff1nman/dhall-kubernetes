@@ -4,8 +4,6 @@
     [] : List ./../types/io.k8s.api.policy.v1beta1.AllowedFlexVolume.dhall
 , allowedHostPaths =
     [] : List ./../types/io.k8s.api.policy.v1beta1.AllowedHostPath.dhall
-, allowedProcMountTypes =
-    [] : List Text
 , allowedUnsafeSysctls =
     [] : List Text
 , defaultAddCapabilities =
@@ -40,6 +38,4 @@
     None Bool
 , readOnlyRootFilesystem =
     None Bool
-, runAsGroup =
-    None ./../types/io.k8s.api.policy.v1beta1.RunAsGroupStrategyOptions.dhall
 }

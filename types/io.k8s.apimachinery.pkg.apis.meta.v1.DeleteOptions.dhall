@@ -1,7 +1,5 @@
 { apiVersion :
     Text
-, dryRun :
-    List Text
 , kind :
     Text
 , preconditions :

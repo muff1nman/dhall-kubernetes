@@ -31,7 +31,7 @@
 , gcePersistentDisk :
     Optional ./io.k8s.api.core.v1.GCEPersistentDiskVolumeSource.dhall
 , glusterfs :
-    Optional ./io.k8s.api.core.v1.GlusterfsPersistentVolumeSource.dhall
+    Optional ./io.k8s.api.core.v1.GlusterfsVolumeSource.dhall
 , hostPath :
     Optional ./io.k8s.api.core.v1.HostPathVolumeSource.dhall
 , iscsi :

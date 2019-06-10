@@ -1,6 +1,4 @@
-{ audiences =
-    [] : List Text
-, authenticated =
+{ authenticated =
     None Bool
 , error =
     None Text

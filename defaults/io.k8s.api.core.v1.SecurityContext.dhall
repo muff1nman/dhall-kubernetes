@@ -6,8 +6,6 @@
     None ./../types/io.k8s.api.core.v1.Capabilities.dhall
 , privileged =
     None Bool
-, procMount =
-    None Text
 , readOnlyRootFilesystem =
     None Bool
 , runAsGroup =

@@ -1,1 +1,1 @@
-{ fsType = None Text }
+{=}

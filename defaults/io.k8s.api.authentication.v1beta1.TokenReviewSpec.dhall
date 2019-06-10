@@ -1,1 +1,1 @@
-{ audiences = [] : List Text, token = None Text }
+{ token = None Text }

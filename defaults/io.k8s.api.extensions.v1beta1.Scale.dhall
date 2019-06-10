@@ -1,5 +1,5 @@
 { apiVersion =
-    "extensions/v1beta1"
+    "apps.openshift.io/v1"
 , kind =
     "Scale"
 , metadata =

@@ -1,6 +1,4 @@
-{ audiences :
-    List Text
-, authenticated :
+{ authenticated :
     Optional Bool
 , error :
     Optional Text

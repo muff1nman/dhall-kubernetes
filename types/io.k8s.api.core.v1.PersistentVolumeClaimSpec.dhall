@@ -1,7 +1,5 @@
 { accessModes :
     List Text
-, dataSource :
-    Optional ./io.k8s.api.core.v1.TypedLocalObjectReference.dhall
 , resources :
     Optional ./io.k8s.api.core.v1.ResourceRequirements.dhall
 , selector :

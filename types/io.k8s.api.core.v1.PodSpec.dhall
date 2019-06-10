@@ -24,8 +24,6 @@
     Optional ./io.k8s.api.core.v1.PodDNSConfig.dhall
 , dnsPolicy :
     Optional Text
-, enableServiceLinks :
-    Optional Bool
 , hostIPC :
     Optional Bool
 , hostNetwork :
@@ -41,8 +39,6 @@
 , priorityClassName :
     Optional Text
 , restartPolicy :
-    Optional Text
-, runtimeClassName :
     Optional Text
 , schedulerName :
     Optional Text
