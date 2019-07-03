@@ -1,1 +1,1 @@
-{ kind : Text, name : Text, weight : Natural }
+{ kind : Text, name : Text, weight : Optional Natural }

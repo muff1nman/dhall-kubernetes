@@ -283,21 +283,21 @@
 , ResourceQuotaStatusByNamespace =
     ./defaults/com.github.openshift.api.quota.v1.ResourceQuotaStatusByNamespace.dhall sha256:561863e9504a372ff11c40c922aca9b5f9fc541e4bf2feebd7cb0bf8d836506f
 , Route =
-    ./defaults/com.github.openshift.api.route.v1.Route.dhall sha256:5c3b02097229d6485f0a44c61e7e6e330baa40375e2f3c431772398517b9207f
+    ./defaults/com.github.openshift.api.route.v1.Route.dhall sha256:edae178a0f85ceb30574bcdfec619fdbe78dff08f96121c3d75564a1acc23834
 , RouteIngress =
     ./defaults/com.github.openshift.api.route.v1.RouteIngress.dhall sha256:59d97ec9e87d994c386a982b26bf92d19f310f2dc667d1e432a9979d6df93bcc
 , RouteIngressCondition =
     ./defaults/com.github.openshift.api.route.v1.RouteIngressCondition.dhall sha256:fef63958bc998f900417bd68974df7936535249af83edf1183721637fa3e7257
 , RouteList =
-    ./defaults/com.github.openshift.api.route.v1.RouteList.dhall sha256:abce9cd748385af999bff574a329c5646e8fdd2a1e20b53dd6b9d6e051eaf5b4
+    ./defaults/com.github.openshift.api.route.v1.RouteList.dhall sha256:286b7e4143853c0ece6b0e58a7bdaacc18cbb5de3a6668be91ac8e3c8e06749a
 , RoutePort =
     ./defaults/com.github.openshift.api.route.v1.RoutePort.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , RouteSpec =
-    ./defaults/com.github.openshift.api.route.v1.RouteSpec.dhall sha256:971a3cd94efd3adfde17c4ad4a84a909288b111e9eb4be823075d3c461d4cf0f
+    ./defaults/com.github.openshift.api.route.v1.RouteSpec.dhall sha256:bdd86a8c4453a1167b9b946879381ebeac41dedd7928e908ab587ac480b5042f
 , RouteStatus =
     ./defaults/com.github.openshift.api.route.v1.RouteStatus.dhall sha256:4f83af02177647b60954ddd921f99558f1ffa59d3dbcf3999eed80dd9e541066
 , RouteTargetReference =
-    ./defaults/com.github.openshift.api.route.v1.RouteTargetReference.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
+    ./defaults/com.github.openshift.api.route.v1.RouteTargetReference.dhall sha256:73dd76db6cb8ebdc3327c3f48d97a946012d69791887f4d0b19c854d14f0c41c
 , TLSConfig =
     ./defaults/com.github.openshift.api.route.v1.TLSConfig.dhall sha256:3e72808f2ea0f9325044f582ab4205c1b19713b7d279d6c9c804ad23735273e2
 , PodSecurityPolicyReview =

@@ -283,21 +283,21 @@
 | ResourceQuotaStatusByNamespace :
     ./types/com.github.openshift.api.quota.v1.ResourceQuotaStatusByNamespace.dhall sha256:f5ea6e7734ff10298656266c76a1200d3d3bf220885832917895b2973f48963b
 | Route :
-    ./types/com.github.openshift.api.route.v1.Route.dhall sha256:30dcbc74931aa8bb12a61c190c7e1fbfb9c774528944e18c2626eaeb966392d5
+    ./types/com.github.openshift.api.route.v1.Route.dhall sha256:014edce99aba3742310085be2d5c965fb5878eb427919bf2c144177618fdc8d7
 | RouteIngress :
     ./types/com.github.openshift.api.route.v1.RouteIngress.dhall sha256:622f2db680f628abaf1ff0ad619ef2330cf89882aff095714e756fccf579edcf
 | RouteIngressCondition :
     ./types/com.github.openshift.api.route.v1.RouteIngressCondition.dhall sha256:10de5e5aed3f6e1721f79bd8e2f9ffcecb92658fbe7442e6eaf74c6780b4779d
 | RouteList :
-    ./types/com.github.openshift.api.route.v1.RouteList.dhall sha256:28ed7d1127d9f04f8b944692840e44c616a094ab55ce742ad1819b5eb91098ca
+    ./types/com.github.openshift.api.route.v1.RouteList.dhall sha256:f9eb37f539f3a2f2b7ae377d03d12ee4e952bbd365879bcd23d0a29b17ebcbc2
 | RoutePort :
     ./types/com.github.openshift.api.route.v1.RoutePort.dhall sha256:9900aeaebfe11f8a9957d2ebbc4d5c1fa01aba3cd31d4d7240338c6a2d29b701
 | RouteSpec :
-    ./types/com.github.openshift.api.route.v1.RouteSpec.dhall sha256:c9c09a501d2478d4863f2d99dbf9504ff80309e3adea8d60d21deba87fab6dfb
+    ./types/com.github.openshift.api.route.v1.RouteSpec.dhall sha256:e959d2709677df3b0ac2ba4129ae8b89a742b4aa5707a756ca7a764f8038f966
 | RouteStatus :
     ./types/com.github.openshift.api.route.v1.RouteStatus.dhall sha256:9b930c179bdc24dbec7ddee3b7783f02b9580d7889e9042d05c27d73c5c9a22c
 | RouteTargetReference :
-    ./types/com.github.openshift.api.route.v1.RouteTargetReference.dhall sha256:37357b95dd717a58e256e5f187755b7eb5fbdc4fc365cabd0dd9b8d5c4d8b744
+    ./types/com.github.openshift.api.route.v1.RouteTargetReference.dhall sha256:b73f967b32cc549e5f7f434b9566a354b5bc5f55e56e51981aa5753002c7c3fb
 | TLSConfig :
     ./types/com.github.openshift.api.route.v1.TLSConfig.dhall sha256:4532b0c461287f9fa04cefb4e341b507838e2f9bfad2992b98fb9c77c4803476
 | PodSecurityPolicyReview :
