@@ -8,6 +8,8 @@ build:  README.md
 	mkdir -p types default
 	dhall-kubernetes-generator "${OPENAPI_SPEC}"
 
+	git apply < openshift.patch
+
 	dhall freeze --all --inplace ./types.dhall
 	dhall freeze --all --inplace ./typesUnion.dhall
 	dhall freeze --all --inplace ./defaults.dhall

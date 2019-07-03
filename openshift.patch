@@ -1,0 +1,13 @@
+diff --git a/types/com.github.openshift.api.route.v1.RouteSpec.dhall b/types/com.github.openshift.api.route.v1.RouteSpec.dhall
+index 7c2330e..3d9e7e9 100644
+--- a/types/com.github.openshift.api.route.v1.RouteSpec.dhall
++++ b/types/com.github.openshift.api.route.v1.RouteSpec.dhall
+@@ -1,7 +1,7 @@
+ { alternateBackends :
+     List ./com.github.openshift.api.route.v1.RouteTargetReference.dhall
+ , host :
+-    Text
++    Optional Text
+ , to :
+     ./com.github.openshift.api.route.v1.RouteTargetReference.dhall
+ , path :

@@ -1,7 +1,7 @@
 { alternateBackends :
     List ./com.github.openshift.api.route.v1.RouteTargetReference.dhall
 , host :
-    Text
+    Optional Text
 , to :
     ./com.github.openshift.api.route.v1.RouteTargetReference.dhall
 , path :
