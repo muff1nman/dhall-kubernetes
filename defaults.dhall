@@ -283,7 +283,7 @@
 , ResourceQuotaStatusByNamespace =
     ./defaults/com.github.openshift.api.quota.v1.ResourceQuotaStatusByNamespace.dhall sha256:561863e9504a372ff11c40c922aca9b5f9fc541e4bf2feebd7cb0bf8d836506f
 , Route =
-    ./defaults/com.github.openshift.api.route.v1.Route.dhall sha256:0ebfc3d2351de57df0ca48942604cd50b0c7f3c8fd4c10708b69ea6cdc54b5a1
+    ./defaults/com.github.openshift.api.route.v1.Route.dhall sha256:5c3b02097229d6485f0a44c61e7e6e330baa40375e2f3c431772398517b9207f
 , RouteIngress =
     ./defaults/com.github.openshift.api.route.v1.RouteIngress.dhall sha256:59d97ec9e87d994c386a982b26bf92d19f310f2dc667d1e432a9979d6df93bcc
 , RouteIngressCondition =
@@ -293,7 +293,7 @@
 , RoutePort =
     ./defaults/com.github.openshift.api.route.v1.RoutePort.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , RouteSpec =
-    ./defaults/com.github.openshift.api.route.v1.RouteSpec.dhall sha256:defbdf0014409c4edc21dfbfdd8b0a9bab940ec96f0cfae51dd09c66ba1a1514
+    ./defaults/com.github.openshift.api.route.v1.RouteSpec.dhall sha256:971a3cd94efd3adfde17c4ad4a84a909288b111e9eb4be823075d3c461d4cf0f
 , RouteStatus =
     ./defaults/com.github.openshift.api.route.v1.RouteStatus.dhall sha256:4f83af02177647b60954ddd921f99558f1ffa59d3dbcf3999eed80dd9e541066
 , RouteTargetReference =

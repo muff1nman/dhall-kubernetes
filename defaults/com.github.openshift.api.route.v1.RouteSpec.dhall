@@ -1,6 +1,8 @@
 { alternateBackends =
     [] : List
          ./../types/com.github.openshift.api.route.v1.RouteTargetReference.dhall
+, host =
+    None Text
 , to =
     ./com.github.openshift.api.route.v1.RouteTargetReference.dhall
 , path =
