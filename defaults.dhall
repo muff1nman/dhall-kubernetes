@@ -320,6 +320,8 @@
     ./defaults/com.github.openshift.api.security.v1.RangeAllocation.dhall sha256:4c64281eb838a9270d2dc7e5ccaeb97d406b507e07dc57372c5dfe4f199067a5
 , RangeAllocationList =
     ./defaults/com.github.openshift.api.security.v1.RangeAllocationList.dhall sha256:8333bc5191c27e6f513420307b2c8298d1924fd40a9d18c0ce8098df0b5824a9
+, RunAsUserStrategyOptions =
+    ./defaults/com.github.openshift.api.security.v1.RunAsUserStrategyOptions.dhall sha256:f954be9fe273df91faf09ec187022123a7dda6aa1054d04f033ae4d02e799f79
 , SELinuxContextStrategyOptions =
     ./defaults/com.github.openshift.api.security.v1.SELinuxContextStrategyOptions.dhall sha256:0cdc76cf60a94a466c8de878116ad46c592f4a7a1811d32b6811be29722c5f2c
 , SecurityContextConstraints =
@@ -956,8 +958,6 @@
     ./defaults/io.k8s.api.policy.v1beta1.PodSecurityPolicyList.dhall sha256:7fe36814230a9ffd59a09b271d0f5264dcc03e4b0d6d4b1046316803a88a4fef
 , PodSecurityPolicySpec =
     ./defaults/io.k8s.api.policy.v1beta1.PodSecurityPolicySpec.dhall sha256:cf73e1e6b4f92ec4f3a3198409dd5efe8e56830fb40c7efc8e89644b1f8b0803
-, RunAsUserStrategyOptions =
-    ./defaults/io.k8s.api.policy.v1beta1.RunAsUserStrategyOptions.dhall sha256:c5a2b1471ef3700443a5ed1e59a47e640ffd392c3eeb275d223c0a4ef95450ae
 , SELinuxStrategyOptions =
     ./defaults/io.k8s.api.policy.v1beta1.SELinuxStrategyOptions.dhall sha256:4f75cf22af14786a303d47531c790359d1d9bf27cb7560d715a1a47ce38533d6
 , SupplementalGroupsStrategyOptions =
