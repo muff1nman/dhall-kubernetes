@@ -300,6 +300,8 @@
     ./defaults/com.github.openshift.api.route.v1.RouteTargetReference.dhall sha256:73dd76db6cb8ebdc3327c3f48d97a946012d69791887f4d0b19c854d14f0c41c
 , TLSConfig =
     ./defaults/com.github.openshift.api.route.v1.TLSConfig.dhall sha256:3e72808f2ea0f9325044f582ab4205c1b19713b7d279d6c9c804ad23735273e2
+, FSGroupStrategyOptions =
+    ./defaults/com.github.openshift.api.security.v1.FSGroupStrategyOptions.dhall sha256:33ca63149b1c456b090ba38536bbb1809e86a75a4da6b6396fad081549aa8149
 , PodSecurityPolicyReview =
     ./defaults/com.github.openshift.api.security.v1.PodSecurityPolicyReview.dhall sha256:e0cbe8bda65eb73273354e66d6299d0c365664fb0db51f3e7125b44249bc8627
 , PodSecurityPolicyReviewSpec =
@@ -330,6 +332,8 @@
     ./defaults/com.github.openshift.api.security.v1.SecurityContextConstraintsList.dhall sha256:a9077b2b49087fdc705e48ac80ae1124ea4765ebd6e7934816eba38b7c168e31
 , ServiceAccountPodSecurityPolicyReviewStatus =
     ./defaults/com.github.openshift.api.security.v1.ServiceAccountPodSecurityPolicyReviewStatus.dhall sha256:6406ff3b1858abce82501ede0bd9639945ffa78f4de5094e4427744375f05e2b
+, SupplementalGroupsStrategyOptions =
+    ./defaults/com.github.openshift.api.security.v1.SupplementalGroupsStrategyOptions.dhall sha256:33ca63149b1c456b090ba38536bbb1809e86a75a4da6b6396fad081549aa8149
 , BrokerTemplateInstance =
     ./defaults/com.github.openshift.api.template.v1.BrokerTemplateInstance.dhall sha256:a5be14b79285038bdfa4edbfd36c5f977bf7fe4fd3a57dd9a31fb9662f2ea3ab
 , BrokerTemplateInstanceList =
@@ -938,8 +942,6 @@
     ./defaults/io.k8s.api.policy.v1beta1.AllowedHostPath.dhall sha256:3959da80ea35f3736cf00ed1db0cba7c115a841d45b43e01b15d9c4cba4c217b
 , Eviction =
     ./defaults/io.k8s.api.policy.v1beta1.Eviction.dhall sha256:b63f15e741113c3ec0a3331cee3427f78fed6224d9a22f9c4ca36177bd8d90d7
-, FSGroupStrategyOptions =
-    ./defaults/io.k8s.api.policy.v1beta1.FSGroupStrategyOptions.dhall sha256:e7710b2c2911ad7bf06ba3638970eea368a0fbd6c9ef4745a06c22efef1a8ffa
 , HostPortRange =
     ./defaults/io.k8s.api.policy.v1beta1.HostPortRange.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , IDRange =
@@ -960,8 +962,6 @@
     ./defaults/io.k8s.api.policy.v1beta1.PodSecurityPolicySpec.dhall sha256:cf73e1e6b4f92ec4f3a3198409dd5efe8e56830fb40c7efc8e89644b1f8b0803
 , SELinuxStrategyOptions =
     ./defaults/io.k8s.api.policy.v1beta1.SELinuxStrategyOptions.dhall sha256:4f75cf22af14786a303d47531c790359d1d9bf27cb7560d715a1a47ce38533d6
-, SupplementalGroupsStrategyOptions =
-    ./defaults/io.k8s.api.policy.v1beta1.SupplementalGroupsStrategyOptions.dhall sha256:e7710b2c2911ad7bf06ba3638970eea368a0fbd6c9ef4745a06c22efef1a8ffa
 , AggregationRule =
     ./defaults/io.k8s.api.rbac.v1.AggregationRule.dhall sha256:eda7bc9d540e37e4b70193988a23b84e618ebc279aec5f82726f87da169ca1bd
 , ClusterRole =
